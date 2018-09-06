@@ -5,6 +5,74 @@
     <title>Fundamentos de HTML</title>
   </head>
   <body>
+    <h1>Elementos bàsicos de HTML</h1>
+    <p>
+      En esta pàgina se muestran ejemplos de los principales elementos para estructurar el contenido de una pàgina web
+    </p>
+    <h2>Encabezados</h2>
+    <p>
+      Existen 6 niveles y se debe respetar el orden en el que se presentan.
+    </p>
+    <h2>Listas</h2>
+    <h3>Listas desordenadas</h3>
+    <ul>
+      <li>C++</li>
+      <li>C#</li>
+      <li>Java</li>
+    </ul>
 
-  </body>
+    <h3>Listas Ordenadas</h3>
+    <ol>
+      <li>Windows</li>
+      <li>OSX</li>
+      <li>Linux</li>
+    </ol>
+
+    <h2>Tablas</h2>
+    <table>
+      <tr><!--renglones-->
+        <th><!--encabezados-->
+          NOMBRE
+        </th>
+        <th>
+          GRUPO
+        </th>
+        <th>
+          EDAD
+        </th>
+
+        <tr>
+            <td><!--datos-->
+              Samm García
+            </td>
+            <td>
+              1ºK
+            </td>
+            <td>
+              18 años
+            </td>
+
+        </tr>
+      </tr>
+    </table>
+
+    <h2>Formularios</h2>
+    <form class="" action="index.html" method="post">
+      <div>
+          <label for="name">Nombre </label>
+          <input type="text" id="name"/>
+      </div>
+      <div>
+          <label for="lastname">Apellido</label>
+          <input type="text" id="lastname" />
+      </div>
+      <div>
+          <label for="age">Edad</label>
+          <textarea id="age"></textarea>
+      </div>
+      <div>
+          <button type="button" id="button">Enviar</button>
+      </div>
+    </form>
+  </body> <!--primmer commit-->
 </html>
