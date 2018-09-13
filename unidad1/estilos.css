@@ -1,0 +1,18 @@
+p, li, td{
+  color: purple;
+  width: 400px;
+  border: 1px solid black;
+}
+#p2{
+  background-color: violet;
+}
+h1:hover{
+  color: violet;
+  font-family: 'Gamja Flower', cursive;
+}
+#form{
+
+}
+label[for]{
+  color: skyblue;
+}
